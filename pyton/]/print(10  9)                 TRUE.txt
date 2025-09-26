@@ -1,0 +1,194 @@
+print(10 > 9)                 TRUE
+print(10 == 9)                FALSE
+print(10 < 9)                 FALSE
+
+
+
+
+
+a = 200
+b = 33
+
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")           b is not greater than a
+
+
+
+
+
+print(bool("Hello"))            TRUE
+print(bool(15))                 TRUE
+
+
+
+
+thistuple = ("apple", "banana", "cherry")                apple
+for x in thistuple:                                      banana
+  print(x)                                               cherry
+
+
+
+
+def myFunction() :
+  return True
+
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")            YES!
+
+
+
+
+
+
+print(10 + 5)          15
+
+
+
+
+print((6 + 3) - (6 + 3))         0 
+
+
+
+print(100 + 5 * 3)       115 
+
+
+
+
+print(5 + 4 - 7 + 3)           5    
+
+
+
+
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
+
+tuple3 = tuple1 + tuple2
+print(tuple3)                              ('a', 'b', 'c', 1, 2, 3)1
+
+
+
+
+
+
+thisset = {"apple", "banana", "cherry", True, 1, 2}
+
+print(thisset)                                                       {True, 2, 'banana', 'cherry', 'apple'}
+
+
+
+
+
+thisset = {"apple", "banana", "cherry"}
+
+x = thisset.pop()
+
+print(x) #removed item                                           banana
+
+print(thisset) #the set after removal                            {'cherry', 'apple'}
+
+
+
+
+
+
+thisset = {"apple", "banana", "cherry"}
+
+thisset.clear()
+
+print(thisset)                                                 set()
+
+
+
+
+
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+
+set3 = set1.union(set2)
+print(set3)                                       2, 'b', 1, 'c', 'a', 3}
+
+
+
+
+
+
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+set3 = {"John", "Elena"}
+set4 = {"apple", "bananas", "cherry"}
+
+myset = set1.union(set2, set3, set4)
+print(myset)                                         {apple, cherry, 'a', 3, 'b', Elena, 1, banana, 2, John, 'c'}
+
+
+
+
+
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = thisdict["model"]
+print(x)                                         Mustang
+
+
+
+
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict:
+  print(thisdict[x])       
+
+
+
+
+
+a = 33
+b = 200
+
+if b > a:
+  print("b is greater than a")                        b is greater than a
+
+
+
+
+
+
+x = 41
+
+if x > 10:
+  print("Above ten,")
+  if x > 20:
+    print("and also above 20!")                      Above ten,
+  else:
+    print("but not above 20.")                       and also above 20!
+
+
+
+
+
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x) 
+  if x == "banana":                          apple
+    break                                    banana
+
+
+
+
+
+
+
+
+
